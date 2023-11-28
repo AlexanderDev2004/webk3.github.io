@@ -1,0 +1,149 @@
+
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main content styling */
+#content {
+  padding: 20px;
+}
+
+.judulk3detail {
+  color: #333;
+}
+
+.penjelasank3 {
+  margin-top: 20px;
+}
+
+.logok3 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.alatk3 {
+    width: 200px;
+    height: 200px;
+}
+.alatk3 img {
+    width: 400px;
+    height: 400px;
+}
+.alatk3 p {
+    size: 34px;
+}
+
+.profile-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-card .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card .profile-info {
+    margin-bottom: 15px;
+  }
+  
+  .profile-card h2.name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .profile-card p.job-title {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .profile-card p.bio {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+  }
